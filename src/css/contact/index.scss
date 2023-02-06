@@ -1,0 +1,63 @@
+.contact-main {
+    display: flex;
+    justify-content: center;
+    .w-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        .img-contact{
+            background: url('/src/assets/leozinsk_horizontal_wallpaper_126a34ec-e606-4e41-ada1-8e3853cc6f14.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 288px;
+            max-height: 600px;
+            max-width: 600px;
+            width: 100vw;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin: 36px 0;
+            width: 320px;
+
+            input {
+                outline: none;
+                margin:8px 0 8px 0;
+                width: 99%;
+            }
+            #message{
+                height: 150px;
+            }
+            button{
+                background-color: #4a4a4a;
+                border: none;
+                color: #FFF;
+                height: 45px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contact-main {
+
+        .w-container {
+            display: grid;
+            gap: 32px;
+            grid-template-columns: 1fr 1fr;
+            margin: 0 20px;
+            max-width: 1200px;
+            place-items: center;
+
+            img {
+                grid-column: 2;
+            }
+
+            .contact-form {
+                grid-column: 1;
+                grid-row: 1;
+            }
+        }
+    }
+}
