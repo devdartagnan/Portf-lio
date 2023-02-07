@@ -1,0 +1,92 @@
+[
+    {
+        "cardDescription": "Calculadora feita com javascipt e sass",
+        "titulo": "Calculadora",
+        "tag": "javascript , sass",
+        "thumb": "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL",
+        "altImage": "Calculadora simples",
+        "page": {
+            "contentImages": [
+                "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL",
+                "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL"
+            ],
+            "projectUrl": "https://calculadora-build.vercel.app/",
+            "textoDescricao": "calculadora feita utilizando as tecnologias html,sass e javascript"
+        }
+    },
+    {
+        "cardDescription": "calculadora",
+        "titulo": "Calculadora",
+        "tag": "javascript , sass",
+        "thumb": "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL",
+        "altImage": "text alternative",
+        "page": {
+            "contentImages": [
+                "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL",
+                "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL"
+            ],
+            "projectUrl": "https://calculadora-build.vercel.app/",
+            "textoDescricao": "calculadora feita utilizando as tecnologias html,sass e javascript"
+        }
+    },
+    {
+        "cardDescription": "calculadora",
+        "titulo": "Calculadora",
+        "tag": "javascript , sass",
+        "thumb": "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL",
+        "altImage": "text alternative",
+        "page": {
+            "contentImages": [
+                "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL",
+                "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL"
+            ],
+            "projectUrl": "https://calculadora-build.vercel.app/",
+            "textoDescricao": "calculadora feita utilizando as tecnologias html,sass e javascript"
+        }
+    },
+    {
+        "cardDescription": "calculadora",
+        "titulo": "Calculadora",
+        "tag": "javascript , sass",
+        "thumb": "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL",
+        "altImage": "text alternative",
+        "page": {
+            "contentImages": [
+                "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL",
+                "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL"
+            ],
+            "projectUrl": "https://calculadora-build.vercel.app/",
+            "textoDescricao": "calculadora feita utilizando as tecnologias html,sass e javascript"
+        }
+    },
+    {
+        "cardDescription": "calculadora",
+        "titulo": "Calculadora",
+        "tag": "javascript , sass",
+        "thumb": "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL",
+        "altImage": "text alternative",
+        "page": {
+            "contentImages": [
+                "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL",
+                "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL"
+            ],
+            "projectUrl": "https://calculadora-build.vercel.app/",
+            "textoDescricao": "calculadora feita utilizando as tecnologias html,sass e javascript"
+        }
+    },
+    {
+        "cardDescription": "calculadora",
+        "titulo": "Calculadora",
+        "tag": "javascript , sass",
+        "thumb": "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL",
+        "altImage": "text alternative",
+        "altPage": {
+            "contentImages": [
+                "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL",
+                "https://drive.google.com/uc?export=view&id=13r8ASm6YLZCtxIBh7RslsdikXRl-O6YL"
+            ],
+            "projectUrl": "https://calculadora-build.vercel.app/",
+            "textoDescricao": "calculadora feita utilizando as tecnologias html,sass e javascript"
+        }
+    }
+]
