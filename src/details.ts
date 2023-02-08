@@ -1,4 +1,3 @@
-import { stringify } from 'querystring'
 import data from './data.json'
 
 const getLocalStorage = localStorage.getItem('details') as string
