@@ -13,7 +13,7 @@ body {
 
             .filter {
                 display: flex;
-                justify-content: space-evenly;
+                justify-content: space-evenly ;
                 margin-bottom: 16px;
             }
 
@@ -23,7 +23,9 @@ body {
 
                 .img-box {
                     position: relative;
-
+                    box-sizing: border-box;
+                    // box-shadow: 2px 2px 7px #8d8d8d;
+                    
                     img {
                         cursor: pointer;
                         width: 100%;
@@ -36,9 +38,9 @@ body {
                         color: #dadada;
                         display: none;
                         font-size: 14px;
-                        font-weight: 400;
-                        height: 50%;
-                        padding: 0.75rem;
+                        font-weight: 500;
+                        height: 30%;
+                        padding:1rem 0.75rem 0.75rem 0.75rem;
                         pointer-events: none;
                         position: absolute;
                         width: 100%;
