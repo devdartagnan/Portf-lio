@@ -1,7 +1,7 @@
 import data from './data.json'
 
 const getLocalStorage = localStorage.getItem('details') as string
-const container = document.querySelector('#container-details') as HTMLElement
+const container = document.querySelector('.carousel-inner') as HTMLElement
 
 interface Props {
     id: string
@@ -16,17 +16,29 @@ interface Props {
         textoDescricao: string
     }
 }
-console.log(getLocalStorage)
+
 data.map((itens: Props) => {
     let id = JSON.stringify(itens.id)
-
-    console.log(id === getLocalStorage)
+    console.log(itens.altPage.contentImages)
     if (id === getLocalStorage) {
-        const section = document.createElement('section')
-        const img = document.createElement('img')
+        let img
+        let count = 0
+        itens.altPage.contentImages.map((photo) => {
+            img = document.createElement('img')
+            const div = document.createElement('div')
 
-        img.src = itens.thumb
-        container.append(section)
-        section.append(img)
+            container.appendChild(div)
+            div.append(img)
+            
+            img.classList.add('d-block')
+            img.classList.add('w-100')
+            div.classList.add('carousel-item')
+            count === 0 ? div.classList.add('active') : void 0
+            
+            img.src = photo
+            img.alt = itens.altImage
+            img.id = ''
+            count++
+        })
     }
 })

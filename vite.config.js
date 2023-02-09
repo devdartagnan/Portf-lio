@@ -8,6 +8,7 @@ export default defineConfig({
         main: resolve(__dirname, "index.html"),
         about: resolve(__dirname, "sobre.html"),
         contact: resolve(__dirname, "contato.html"),
+        datails: resolve(__dirname, "detalhes.html")
       },
     },
   },
